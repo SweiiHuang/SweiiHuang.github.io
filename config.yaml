@@ -1,0 +1,158 @@
+baseURL: "https://github.com/SweiiHuang/sweiihuang.github.io" # 網站的基礎URL
+title: odeMyWayOut # 網站標題
+paginate: 5 # 每頁顯示的文章數量
+theme: PaperMod # 使用的主題名稱
+
+enableRobotsTXT: true # 啟用Robots.txt文件，允許搜尋引擎爬取網站
+buildDrafts: false # 不構建草稿狀態的內容
+buildFuture: false # 不構建設置在未來發布的內容
+buildExpired: false # 不構建已過期的內容
+
+googleAnalytics: # Google Analytics的追蹤代碼
+
+minify:
+  disableXML: true # 禁用XML壓縮
+  minifyOutput: true # 啟用輸出壓縮
+
+params:
+  env: production # 設定環境為生產環境，啟用Google Analytics、OpenGraph、Twitter卡片和結構化數據
+  title: ExampleSite # 網站標題
+  description: "ExampleSite description" # 網站描述
+  keywords: [Blog, Portfolio, PaperMod] # 關鍵字列表
+  author: Me # 作者名稱
+  # author: ["Me", "You"]             # 多位作者
+  images: ["<link or path of image for opengraph, twitter-cards>"] # OpenGraph和Twitter卡片的圖片連結或路徑
+  DateFormat: "January 2, 2006" # 日期格式
+  defaultTheme: auto # 預設主題，auto會自動根據用戶的系統設置切換（可選值：dark, light）
+  disableThemeToggle: false # 是否禁用主題切換開關
+
+  ShowReadingTime: true # 顯示閱讀時間
+  ShowShareButtons: true # 顯示分享按鈕
+  ShowPostNavLinks: true # 顯示文章導航連結
+  ShowBreadCrumbs: true # 顯示麵包屑導航
+  ShowCodeCopyButtons: true # 不顯示代碼複製按鈕
+  ShowWordCount: true # 顯示字數統計
+  ShowRssButtonInSectionTermList: true # 在部分列表中顯示RSS按鈕
+  UseHugoToc: true # 使用Hugo內置的目錄（Table of Contents）
+  disableSpecial1stPost: false # 不禁用特別樣式的第一篇文章
+  disableScrollToTop: false # 不禁用回到頂部按鈕
+  comments: false # 不啟用評論功能
+  hidemeta: false # 不隱藏元數據
+  hideSummary: false # 不隱藏摘要
+  showtoc: true # 不顯示目錄
+  tocopen: false # 預設不展開目錄
+
+  assets:
+    # disableHLJS: true               # 禁用highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>" # Favicon的連結或絕對URL
+    favicon16x16: "<link / abs url>" # 16x16 Favicon的連結或絕對URL
+    favicon32x32: "<link / abs url>" # 32x32 Favicon的連結或絕對URL
+    apple_touch_icon: "<link / abs url>" # Apple touch圖標的連結或絕對URL
+    safari_pinned_tab: "<link / abs url>" # Safari Pinned Tab圖標的連結或絕對URL
+
+  label:
+    text: "CodeMyWayOut" # 標籤文本
+    icon: /apple-touch-icon.png # 標籤圖標
+    iconHeight: 35 # 標籤圖標高度
+
+  profileMode:
+    enabled: false # 須顯式設置為true以啟用
+    title: ExampleSite # 標題
+    subtitle: "This is subtitle" # 副標題
+    imageUrl: "<img location>" # 圖片URL
+    imageWidth: 120 # 圖片寬度
+    imageHeight: 120 # 圖片高度
+    imageTitle: my image # 圖片標題
+    buttons: # 按鈕配置
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+    socialIcons: # optional
+      - name: "<platform>"
+        url: "<link>"
+      - name: "<platform 2>"
+        url: "<link2>"
+
+  homeInfoParams:
+    Title: "Hi there 👋" # 主要標題
+    Content: Welcome to my blog! After many years in the cubicle, I decided to leave office life behind and take on new challenges. Here, I share my journey, insights, and experiences along the way.
+
+  #From Cubicle to Code
+
+  socialIcons:
+    - name: medium # 社交平台名稱
+      url: "https://medium.com/@lagom247" # 社交平台連結
+    - name: github
+      url: "https://github.com/SweiiHuang"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag:  # Google站點驗證標籤
+  #   bing:
+  #     SiteVerificationTag:  # Bing站點驗證標籤
+  #   yandex:
+  #     SiteVerificationTag: # Yandex站點驗證標籤
+
+  cover:
+    hidden: true # 在所有地方隱藏封面，但在結構化數據中不隱藏
+    hiddenInList: true # 在列表頁和首頁隱藏封面
+    hiddenInSingle: true # 在單篇文章頁隱藏封面
+
+    image: "<image path/url>"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content" # 編輯文章的URL
+    Text: "Suggest Changes" # 編輯按鈕文本
+    appendFilePath: true # 將文件路徑附加到編輯連結中
+
+  fuseOpts: # 搜索配置，參見：https://fusejs.io/api/options.html
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # 參考：https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main: # 主菜單配置
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+pygmentsUseClasses: true # 使用Pygments的CSS類
+markup:
+  highlight:
+    noClasses: false # 不禁用CSS類
+    # anchorLineNos: true            # 行號加錨點
+    # codeFences: true               # 支持Markdown代碼框
+    # guessSyntax: true              # 猜測語法高亮
+    # lineNos: true                  # 顯示行號
+    # style: monokai                 # 高亮樣式
