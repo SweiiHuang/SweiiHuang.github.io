@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Hi there</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Hi there</description>
+    <title>Tags on CodeMyWayOut</title>
+    <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/</link>
+    <description>Recent content in Tags on CodeMyWayOut</description>
     <image>
-      <title>Hi there</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>CodeMyWayOut</title>
+      <url>https://github.com/SweiiHuang/sweiihuang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://github.com/SweiiHuang/sweiihuang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jul 2024 21:29:19 +0800</lastBuildDate>
+    <atom:link href="https://github.com/SweiiHuang/sweiihuang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/SweiiHuang/sweiihuang.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github Action</title>
+      <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github-action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github Page</title>
+      <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github-page/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/SweiiHuang/sweiihuang.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
