@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Github on CodeMyWayOut</title>
-    <link>https://github.com/SweiiHuang/sweiihuang.github.io/tags/github/</link>
-    <description>Recent content in Github on CodeMyWayOut</description>
+    <title>Github on A Life’s Eclipse</title>
+    <link>http://localhost:1313/SweiiHuang/sweiihuang.github.io/tags/github/</link>
+    <description>Recent content in Github on A Life’s Eclipse</description>
     <image>
-      <title>CodeMyWayOut</title>
-      <url>https://github.com/SweiiHuang/sweiihuang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://github.com/SweiiHuang/sweiihuang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>A Life’s Eclipse</title>
+      <url>http://localhost:1313/SweiiHuang/sweiihuang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/SweiiHuang/sweiihuang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jul 2024 21:29:19 +0800</lastBuildDate>
-    <atom:link href="https://github.com/SweiiHuang/sweiihuang.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/SweiiHuang/sweiihuang.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Hugo &#43; Github Page &#43; Github Action 打造個人網站</title>
-      <link>https://github.com/SweiiHuang/sweiihuang.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/SweiiHuang/sweiihuang.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jul 2024 21:29:19 +0800</pubDate>
-      <guid>https://github.com/SweiiHuang/sweiihuang.github.io/posts/my-first-post/</guid>
-      <description>Preface 使用 Notion 一陣子後，漸漸不喜歡他複雜的排版，水平向的擴展也有限 越來越習慣使用 Markdown 寫筆記，大多數筆記已遷移至 Obsidian 想練習輸出，有什麼能夠直接使用 Markdown 語法上傳的呢？ Hugo 使用 Go 語言開發，以 Markdown 語法編寫內容，透過模板系統生成最終 HTML 頁面 此篇紀錄自己使用 Hugo + Github Page + Github Action 打造個人網站的流程 Local 安裝 Hugo macOS | Hugo (gohugo.io)，使用 homebrew 進行安裝 brew install hugo 創一個資料夾放置相關資料 ex. blog hugo new site &amp;lt;資料夾名稱&amp;gt; hugo new site &amp;lt;github帳號.github.io&amp;gt; #此處命名為github帳號，方便後續使用github page cd &amp;lt;資料夾名稱&amp;gt; cd &amp;lt;github帳號.github.io&amp;gt; git init Hugo 框架資料夾結構
+      <guid>http://localhost:1313/SweiiHuang/sweiihuang.github.io/posts/my-first-post/</guid>
+      <description>流程圖 Preface 使用 Notion 一陣子後，漸漸不喜歡他複雜的排版，水平向的擴展也有限 越來越習慣使用 Markdown 寫筆記，大多數筆記已遷移至 Obsidian 想練習輸出，有什麼能夠直接使用 Markdown 語法上傳的呢？ Hugo 使用 Go 語言開發，以 Markdown 語法編寫內容，透過模板系統生成最終 HTML 頁面 此篇紀錄自己使用 Hugo + Github Page + Github Action 打造個人網站的流程 Local 安裝 Hugo macOS | Hugo (gohugo.io)，使用 homebrew 進行安裝 brew install hugo 創一個資料夾放置相關資料 ex. blog hugo new site &amp;lt;資料夾名稱&amp;gt; hugo new site &amp;lt;github帳號.github.io&amp;gt; #此處命名為github帳號，方便後續使用github page cd &amp;lt;資料夾名稱&amp;gt; cd &amp;lt;github帳號.github.io&amp;gt; git init Hugo 框架資料夾結構
 Directory structure | Hugo (gohugo.io) my-site/ ├── archetypes/ (放置md文章的模板) │ └── default.</description>
     </item>
   </channel>
