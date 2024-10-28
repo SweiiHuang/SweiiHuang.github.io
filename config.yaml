@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # 設定環境為生產環境，啟用Google Analytics、OpenGraph、Twitter卡片和結構化數據
-  title: CodeMyWayOut # 網站標題
-  description: "ExampleSite description" # 網站描述
+  title: A Life’s Eclipse # 網站標題
+  description: "Dancing Between Sun, Moon, and Earth" # 網站描述
   keywords: [Blog, Portfolio, PaperMod] # 關鍵字列表
   author: SW # 作者名稱
   # author: ["Me", "You"]             # 多位作者

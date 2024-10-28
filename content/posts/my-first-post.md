@@ -12,6 +12,8 @@ categories = ["Dev_流程記錄"]
 draft = false
 +++
 
+## 流程圖
+
 ## Preface
 
 - 使用 Notion 一陣子後，漸漸不喜歡他複雜的排版，水平向的擴展也有限
