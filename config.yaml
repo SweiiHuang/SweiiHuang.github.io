@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>" # Safari Pinned Tab圖標的連結或絕對URL
 
   label:
-    text: "A Life’s Eclipse" # 標籤文本
+    text: "Fill the Gap" # 標籤文本
     icon: /apple-touch-icon.png # 標籤圖標
     iconHeight: 35 # 標籤圖標高度
 
