@@ -1,5 +1,5 @@
 baseURL: "https://github.com/SweiiHuang/sweiihuang.github.io" # 網站的基礎URL
-title: A Life’s Eclipse # 網站標題
+title: Fill the Gap # 網站標題
 paginate: 5 # 每頁顯示的文章數量
 theme: PaperMod # 使用的主題名稱
 
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # 設定環境為生產環境，啟用Google Analytics、OpenGraph、Twitter卡片和結構化數據
-  title: A Life’s Eclipse # 網站標題
-  description: "Dancing Between Sun, Moon, and Earth" # 網站描述
+  title: Fill the Gap # 網站標題
+  description: "Not All Who Wander Are Lost" # 網站描述
   keywords: [Blog, Portfolio, PaperMod] # 關鍵字列表
   author: SW # 作者名稱
   # author: ["Me", "You"]             # 多位作者
@@ -77,7 +77,7 @@ params:
 
   homeInfoParams:
     Title: "Hi there 🙋🏻‍♀️" # 主要標題
-    Content: Welcome to my blog. Here, I capture a variety of learning reflections and insights. The growth, change, and transformation of life are like an eclipse dancing between the sun, moon, and Earth. May life embrace the spirit of lagom.🤞🏻
+    Content: Inspired by the freedom of wandering, sometimes stepping away from the familiar becomes the only way to find oneself.
 
   #From Cubicle to Code
 
