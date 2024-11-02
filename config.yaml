@@ -1,5 +1,5 @@
 baseURL: "https://github.com/SweiiHuang/sweiihuang.github.io" # 網站的基礎URL
-title: Fill the Gap # 網站標題
+title: Fill the Gap() # 網站標題
 paginate: 5 # 每頁顯示的文章數量
 theme: PaperMod # 使用的主題名稱
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # 設定環境為生產環境，啟用Google Analytics、OpenGraph、Twitter卡片和結構化數據
-  title: Fill the Gap # 網站標題
+  title: Fill the Gap() # 網站標題
   description: "Not All Who Wander Are Lost" # 網站描述
   keywords: [Blog, Portfolio, PaperMod] # 關鍵字列表
   author: SW # 作者名稱
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>" # Safari Pinned Tab圖標的連結或絕對URL
 
   label:
-    text: "Fill the Gap" # 標籤文本
+    text: "Fill the Gap()" # 標籤文本
     icon: /apple-touch-icon.png # 標籤圖標
     iconHeight: 35 # 標籤圖標高度
 
